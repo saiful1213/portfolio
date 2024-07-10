@@ -178,7 +178,7 @@ body {
     margin-bottom: 24px;
 }
 
-.card-btn{
+.card-btn {
     color: rgb(13, 19, 33);
     border: 0;
     border-bottom: 1px solid;
@@ -195,4 +195,60 @@ body {
 
 .card3 {
     background: rgba(255, 223, 0, 0.05);
+}
+
+/*  support section start */
+
+.support-container {
+    background: linear-gradient(rgba(21, 21, 21, 0.70), rgba(21, 21, 21, 0.70)), url('/images/handshake.jpg');
+    margin: 80px 0;
+    border-radius: 15px;
+    background-position: center;
+}
+
+.support {
+    width: 600px;
+    margin: 0 auto;
+    padding: 64px;
+}
+
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-desc {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.input-field {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+}
+
+input[type=text] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    flex-grow: 1;
+}
+
+input[type=submit] {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: 0;
 }
