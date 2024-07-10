@@ -1,9 +1,9 @@
+/* common style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
-    ;
 }
 
 body {
@@ -11,6 +11,24 @@ body {
     margin: 0 auto;
 }
 
+.section {
+    margin: 150px 0;
+}
+
+.section-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section-desc {
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+
+/* banner section style */
 .banner {
     height: 100vh;
     background-image: url('/images/Hero-bg.png');
@@ -76,3 +94,48 @@ body {
 }
 
 /* banner section completed */
+
+
+/* why development section start */
+.development-card-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.development-card-child {
+    width: 60%;
+}
+
+.development-card-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.development-card-desc {
+    color: rgb(13, 19, 33);
+    margin: 16px 0 32px;
+}
+
+.development-card-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.development-card-parent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: row-reverse;
+}
+
+/* why development section end */
+
