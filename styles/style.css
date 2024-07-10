@@ -81,6 +81,10 @@ body {
     margin-bottom: 32px;
 }
 
+.banner-info-child a{
+    text-decoration: none;
+}
+
 .banner-info-child button {
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
@@ -92,7 +96,6 @@ body {
     display: block;
     margin: 0 auto;
 }
-
 /* banner section completed */
 
 
@@ -136,8 +139,8 @@ body {
     margin-top: 70px;
     flex-direction: row-reverse;
 }
-
 /* why development section end */
+
 
 /* inspiration section start */
 .video-container {
@@ -197,8 +200,8 @@ body {
     background: rgba(255, 223, 0, 0.05);
 }
 
-/*  support section start */
 
+/*  support section start */
 .support-container {
     background: linear-gradient(rgba(21, 21, 21, 0.70), rgba(21, 21, 21, 0.70)), url('/images/handshake.jpg');
     margin: 80px 0;
@@ -251,4 +254,17 @@ input[type=submit] {
     padding: 17px 20px;
     border-radius: 8px;
     border: 0;
+}
+
+/* footer section */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.author p {
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    font-size: 20px;
 }
